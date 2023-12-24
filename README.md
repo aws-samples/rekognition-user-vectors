@@ -1,6 +1,6 @@
 ## Improving Accuracy of Rekognition Face Search with User Vectors
 ### Face matching of images against a private collection of users faces
-![results](./results.png)
+![results](./results.jpeg)
 
 ---
 This repository contains an end to end example (implemented in a Jupyter notebook) how to build a face matching system using [Amazon Rekognition](https://aws.amazon.com/rekognition/). The idea is building a face matching workflow that is capable of matching faces based on multiple images representing their facial features.<br>

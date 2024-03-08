@@ -10,7 +10,7 @@ def image_to_byte_array(image, format) -> bytes:
   imgByteArr = imgByteArr.getvalue()
   return imgByteArr
 
-# This method uses Rekogntion User Vectors to search against stored users with a face from an image
+# This method uses Rekogntion to search against a collection of user vectors
 def detect_users_in_image(bucket, key, collection_id, threshold=80):
 
     session = boto3.Session()
@@ -88,7 +88,7 @@ def detect_users_in_image(bucket, key, collection_id, threshold=80):
 
     return image
 
-# This method uses Rekogntion **without** User Vectors to search against stored individual faces with a face from an image
+# This method uses Rekogntion **without** user vectors to search against a collection of individual face vectors
 def detect_faces_in_image(bucket, key, collection_id, threshold=80):
 
     session = boto3.Session()

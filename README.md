@@ -3,10 +3,12 @@
 ![results](./results.jpeg)
 
 ---
-This repository contains an end to end example (implemented in a Jupyter notebook) how to build a face matching system using [Amazon Rekognition](https://aws.amazon.com/rekognition/). The idea is building a face matching workflow that is capable of matching faces based on multiple images representing their facial features.<br>
-The solution contain detailed example of how to create collection, add users, add faces from images, associate faces with users and lastly match faces from images against the user collection.
+This repository contains an end to end example (implemented in a Jupyter notebook) how to build a face search system using [Amazon Rekognition](https://aws.amazon.com/rekognition/).<br>
+Amazon Rekognition enables you to achieve very high face search accuracy with a single face image. In some cases, you can use multiple images of the same person's face to create user vectors and improve accuracy even further. This is especially helpful when images have variations in lighting, poses, and appearances.<br>
 
-In Jun 2023, [AWS launched a new capability that significantly improves face search accuracy](https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-rekognition-face-search-accuracy-user-vectors/) by leveraging multiple face images of a user. Now, customers can create User Vectors, which aggregate multiple face vectors of the same user. User vectors offer higher face search accuracy with more robust depictions, as they contain varying degrees of lighting, sharpness, pose, appearance, etc; Thus improving the accuracy when comparing to a facial vector from the image you wish to compare to the collection. 
+This will guide you through creating a collection, storing face vectors in that collection, aggregating those face vectors into user vectors, and then comparing the results of searching against those individual face vectors and user vectors.
+
+In June 2023, [AWS launched user vectors, a new capability that significantly improves face search accuracy](https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-rekognition-face-search-accuracy-user-vectors/) by leveraging multiple face images of a user. Now, customers can create user vectors, which aggregate multiple face vectors of the same user. User vectors offer higher face search accuracy with more robust depictions, as they contain varying degrees of lighting, sharpness, pose, appearance, etc. This improves the accuracy compared to searching aginst individual face vectors.
 
 **NOTE: You can run the notebook in SageMaker Studio, JupyterLab, or on your local machine**
 

@@ -8,8 +8,6 @@ Amazon Rekognition enables you to achieve very high face search accuracy with a 
 
 This will guide you through creating a collection, storing face vectors in that collection, aggregating those face vectors into user vectors, and then comparing the results of searching against those individual face vectors and user vectors.
 
-In June 2023, [AWS launched user vectors, a new capability that significantly improves face search accuracy](https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-rekognition-face-search-accuracy-user-vectors/) by leveraging multiple face images of a user. Now, customers can create user vectors, which aggregate multiple face vectors of the same user. User vectors offer higher face search accuracy with more robust depictions, as they contain varying degrees of lighting, sharpness, pose, appearance, etc. This improves the accuracy compared to searching aginst individual face vectors.
-
 **NOTE: You can run the notebook in SageMaker Studio, JupyterLab, or on your local machine**
 
 ---

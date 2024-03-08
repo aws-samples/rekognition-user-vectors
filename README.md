@@ -1,5 +1,5 @@
 ## Improving Accuracy of Rekognition Face Search with User Vectors
-### Face matching of images against a private collection of users faces
+### Face search of images against a private collection of users faces
 ![results](./results.jpeg)
 
 ---

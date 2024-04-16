@@ -1,4 +1,4 @@
-## Improving Accuracy of Rekognition Face Search with User Vectors
+## Improve accuracy of Amazon Rekognition Face Search with user vectors
 ### Face search of images against a collection of users faces
 ![results](./results.jpeg)
 

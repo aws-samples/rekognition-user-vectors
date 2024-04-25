@@ -4,6 +4,7 @@
 
 ---
 See [the blog post](https://aws.amazon.com/blogs/machine-learning/improve-accuracy-of-amazon-rekognition-face-search-with-user-vectors/) for more information.<br>
+
 This repository contains an end to end example (implemented in a Jupyter notebook) how to build a face search system using [Amazon Rekognition](https://aws.amazon.com/rekognition/).<br>
 Amazon Rekognition enables you to achieve very high face search accuracy with a single face image. In some cases, you can use multiple images of the same person's face to create user vectors and improve accuracy even further. This is especially helpful when images have variations in lighting, poses, and appearances.<br>
 
